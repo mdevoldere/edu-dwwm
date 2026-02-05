@@ -45,14 +45,14 @@ Transition du code linéaire vers une architecture Objet.
 
 - Introduction au diagramme de classes (attributs, méthodes, visibilité)
 - Utilisation d'un logiciel de modélisation UML
-- Utilisation de la syntaxe Mermaid directement dans les README.md sur GitHub pour générer des schémas
+- Utilisation de la syntaxe Mermaid directement dans les README.md pour générer des schémas
 
-## Concepts de la POO (Pratique en Java ou C#) :
+## Concepts de la POO :
 
 **Classes et Objets** 
 
 - Création de classes simples
-- Multi-fichiers : Séparer les classes du programme principal (Main)
+- Multi-fichiers : Séparer les classes du programme principal 
 - Encapsulation : Attributs private et mise en place des Getters/Setters
 - Héritage & Polymorphisme : Concepts de spécialisation
 

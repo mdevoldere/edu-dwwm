@@ -6,14 +6,14 @@
 - Développer une interface utilisateur
 - Dynamiser une interface utilisateur
 - Gérer les données au sein d'une interface utilisateur 
-- Documenter les fonctionnemenbt d'une application web 
+- Documenter les fonctionnement d'une application web 
 - Préparer l'environnement d'exécution d'une application web (Docker)
 
 1. **Maquetter des Interfaces (Design)**
     - Figma : Apprendre à concevoir pour le web
-    - Création de Wireframes (structure)
-    - Passage à la Maquette haute fidélité (UI)
-    - Prototype interactif (flux de navigation)
+        - Création de Wireframes (structure)
+        - Passage à la Maquette haute fidélité (UI)
+        - Prototype interactif (flux de navigation)
     - Git : Export des assets et de la documentation de design
 
 2. **Développer l'Interface (Statique)**
@@ -21,6 +21,7 @@
     - Docker
         - Conteneur Nginx ou Apache pour servir les fichiers
         - Volumes (synchroniser un dossier local avec un dossier dans le conteneur)
+        - Commande docker run de l'exercice systématiquement incluse dans le README.md
     - Git : Un dossier par projet/exercice
 
 3. **Gérer les Données & Interaction dynamique**

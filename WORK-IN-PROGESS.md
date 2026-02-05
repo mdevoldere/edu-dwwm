@@ -4,6 +4,44 @@
 
 L'utilisation de  Git, Docker et la Documentation en fil rouge, tout en commençant par une base rigoureuse en Java/C# (POO) pour finir sur la flexibilité de Symfony et WordPress, garantit aux apprenants un profil très complet et "prêt à l'emploi" pour le marché du travail.
 
+--- 
+
+## Algo
+
+**A discuter : Utilisation d'un langage web pour l'algo en dwwm ?**
+
+PHP, JS et Python sont faiblement typés...
+
+PHP éventuellement si on utilise exclusivement des classes mais les apprenants devront créer la structure eux même (classe, constructeur, instanciation) : 
+
+```php
+class Program 
+{
+    private string $name;
+
+    function __construct() 
+    {
+        $this->name = readline("Votre nom ? ");
+        $this->sayHello();
+    }
+
+    function sayHello() : void 
+    {
+        echo 'Bonjour ' . $this->name;
+    }
+}
+
+new Program();
+```
+
+Peut-être TypeScript ? Bémol : Sa syntaxe est particulière pour le typage
+
+```typescript
+var myName: string;
+```
+
+--- 
+
 # Stratégie Git : Le "Quotidien"
 
 Au lieu d'un cours théorique, **imposer un workflow de production dès le premier jour de l'algorithmique** :
@@ -13,18 +51,20 @@ Au lieu d'un cours théorique, **imposer un workflow de production dès le premi
 
 **Progression :**
 
-- 1 : Uniquement add, commit, push sur la branche main.
-- 2 : Gestion des conflits et revue de code entre pairs.
-- 3 : Introduction des branches de fonctionnalités (feature branches) et des Pull Requests.
+1. Uniquement fetch, pull, add, commit, push sur la branche main.
+2. Gestion des conflits
+3. Introduction des branches de fonctionnalités (feature branches)
+    - Pull Requests
+    - Revue de code entre pairs
 
 ## Stratégie Docker : La "Boîte à outils"
 
 Pour éviter que Docker ne devienne un obstacle, fournir des configurations prêtes à l'emploi (images officielles) qui s'étoffent avec le programme :
 
-- Phase Intro/Algorithmique : Un conteneur node:alpine ou php:cli minimaliste. Ils apprennent juste la commande docker run pour exécuter leur code.
-- Phase Frontend : Utilisation de nginx:alpine pour servir leurs fichiers HTML/CSS/JS. Ils apprennent le mappage de ports (8080:80).
-- Phase PHP/JSON : Utilisation d'une image php:apache. Ils découvrent les volumes pour synchroniser leur code local avec le conteneur.
-- Phase Symfony/BDD : Passage à docker-compose. C'est ici qu'ils apprennent à orchestrer plusieurs services (PHP + MySQL + Adminer).
+- Phase Intro/Algorithmique : Un conteneur minimaliste. Ils apprennent juste la commande docker run pour exécuter leur code.
+- Phase Frontend : Utilisation de nginx:alpine pour servir leurs fichiers HTML/CSS/JS. Ils apprennent le mappage de ports (8080:80) et les volumes pour synchroniser leur code local avec le conteneur.
+- Phase Backend PHP : Utilisation d'une image php:apache. Ils découvrent le Dockerfile.
+- Phase Symfony/BDD : Passage à docker-compose. C'est ici qu'ils apprennent à orchestrer plusieurs services (PHP + Base de données + Adminer).
 
 ## Impact sur le plan de formation
 
