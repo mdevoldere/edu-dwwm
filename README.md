@@ -11,7 +11,7 @@
 
 | Module | Focus | Finalité | 
 | --- | --- | --- | 
-| Introduction | Logique & POO | Apprendre à penser "code" | 
+| Introduction | Logique & POO | Apprendre à raisonner <br> Apprendre à penser "code" | 
 | Frontend | Interface	| Apprendre à créer le visuel |
 | Données | Structure | Apprendre à organiser l'information |
 | Backend | Architecture | Apprendre à créer l'intelligence |
@@ -27,7 +27,7 @@
 | Backend | Architecture Pro | PHP & Symfony | MVC & POO Avancée | Dépôt par projet Workflow de Branches / Docker-Compose Pro | 
 | DevOps | Déploiement | YAML | GIT / Docker | Pull-request, Github actions, Gitlab CLI |
 
-## Objectifs transverses à atteindre en fin de parcours (hors codage)
+## Objectifs transverses à atteindre en fin de parcours
 
 **Git**	
 - Un dépôt par projet, workflow de branches et Pull Requests.
@@ -43,4 +43,4 @@
 
 **Codage**
 - Savoir coder une interface utilisateur 
-- Savoir coder dans au moins 1 langage 
+- Savoir coder dans au moins 1 langage backend
