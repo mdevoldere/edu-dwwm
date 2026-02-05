@@ -1,8 +1,5 @@
 # Module 0 : Initialisation, Algo & POO 
 
-
-# Phase 1 : Algorithmique & Logique
-
 # Compétences
 
 - Initialiser et synchroniser un dépôt Git
@@ -11,6 +8,9 @@
 - Écrire du pseudo-code 
 - Dessiner un diagramme de classes 
 - Préparer l'environnement d'exécution (Docker)
+
+# Phase 1 : Algorithmique & Logique
+
 
 ## Docker & Git
 
@@ -24,7 +24,7 @@ Initiation à la gestion de projet et de fichiers.
 
 **Pseudo-code** 
 
-Écrire la logique en français ou en anglais avant de coder.
+- Écrire la logique en français ou en anglais avant de coder.
 
 **Codage (Java ou C#)** 
 

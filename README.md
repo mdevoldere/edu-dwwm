@@ -1,52 +1,46 @@
 # DWWM: Développeur Web et Web Mobile
 
-# Introduction
+- [Réflexions et idées (document de travail)](./WORK-IN-PROGESS.md)
 
-1. Git (Github ou Gitlab)
-2. Algorithmes
-3. POO
-4. Gestion de projet simple
+- [Module 0 : Introduction](./MODULE-0.md)
+- [Module 1 : Web Frontend](./MODULE-1.md)
+- [Module 2 : Bases de données](./MODULE-2.md)
+- [Module 3 : Web Backend](./MODULE-3.md)
 
+## Objectifs globaux
 
-# Module 1 : Web Frontend
+| Module | Focus | Finalité | 
+| --- | --- | --- | 
+| Introduction | Logique & POO | Apprendre à penser "code" | 
+| Frontend | Interface	| Apprendre à créer le visuel |
+| Données | Structure | Apprendre à organiser l'information |
+| Backend | Architecture | Apprendre à créer l'intelligence |
+| DevOps | Livraison | Apprendre à mettre en ligne et automatiser |
 
-1. Maquetter des interfaces utilisateur
-    1. Figma
-        1. Wireframe
-        2. Maquette
-        3. Prototype
-2. Développer des interfaces utilisateur
-    1. HTML
-    2. CSS
-3. Gérer les données au sein d'une interface utilisateur
-    1. Javascript Vanilla (JS)
-    2. Framework JS (VueJS ou React)
-    3. LocalStorage et Fetch
-4. Conteneuriser et déployer un site web statique
-    1. Docker
-    2. Github ou Gitlab
-    3. Déploiement manuel (SFTP)
+## Objectifs techniques
 
-# Module 2 : Bases de données
+| Module | Focus Technique | Langages / Frameworks | Architecture & Modélisation | Workflow Git & Docker | 
+| --- | --- | --- | --- | --- |
+| Introduction | Algo & Bases POO | Java ou C# | Pseudo-code & UML (Classes) | Dépôt unique / Docker CLI | 
+| Frontend | Interface & UX | HTML CSS JS | Maquettage Figma | Dépôt unique / Docker Nginx/Apache | 
+| Données | Persistance & SQL | SQL & NoSQL | Merise (MCD/MLD) | Dépôt unique / Docker-Compose | 
+| Backend | Architecture Pro | PHP & Symfony | MVC & POO Avancée | Dépôt par projet Workflow de Branches / Docker-Compose Pro | 
+| DevOps | Déploiement | YAML | GIT / Docker | Pull-request, Github actions, Gitlab CLI |
 
-1. Concevoir une base de données relationnelle
-    1. Merise
-    2. UML
-2. Mettre en place une base de données relationnelle
-    1. SQL (MySQL ou PostgreSQL ou SqlServer)
-3. Mettre en place une base de données noSQL
-    1. MongoDB
+## Objectifs transverses à atteindre en fin de parcours (hors codage)
 
-# Module 3 : Web Backend 
+**Git**	
+- Un dépôt par projet, workflow de branches et Pull Requests.
 
-1. Développer le backend d'une application
-    1. API Rest
-        - PHP
-        - Symfony
-    2. Architecture MVC
-        - PHP 
-        - Symfony
-2. Conteneuriser et déployer une application web
-    1. Docker
-    2. Github ou Gitlab
-    3. Déploiement manuel (SFTP)
+**Docker**	
+- Orchestration multi-services (Front + Back + BDD) identique en dev et prod.
+
+**Markdown**	
+- Documentation technique complète incluant l'UML et les instructions d'installation.
+
+**UML / Merise**	
+- Conception systématique avant toute ligne de code.
+
+**Codage**
+- Savoir coder une interface utilisateur 
+- Savoir coder dans au moins 1 langage 
