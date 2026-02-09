@@ -6,6 +6,7 @@
 - [Module 1 : Web Frontend](./MODULE-1.md)
 - [Module 2 : Bases de données](./MODULE-2.md)
 - [Module 3 : Web Backend](./MODULE-3.md)
+- [Module 4 : Frameworks et CMS](./MODULE-4.md)
 
 ## Objectifs globaux
 
@@ -15,6 +16,7 @@
 | Frontend | Interface	| Apprendre à créer le visuel |
 | Données | Structure | Apprendre à organiser l'information |
 | Backend | Architecture | Apprendre à créer l'intelligence |
+| Frameworks | Métier | Apprendre à utiliser des frameworks et CMS |
 | DevOps | Livraison | Apprendre à mettre en ligne et automatiser |
 
 ## Objectifs techniques
